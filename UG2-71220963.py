@@ -10,10 +10,11 @@ def volumebalok(p, l, t):
     balok = p*l*t
     return balok
 print("========= KALKULATOR CERDAS =========")
+print("Pilihlah bangung yang ingin anda hitung (inputan angka saja): ")
 print("1. Tabung")
 print("2. Kubus")
 print("3. Balok")
-pilihan = int(input("Pilihlah bangung yang ingin anda hitung (inputan angka saja): "))
+pilihan = int(input(">> "))
 if pilihan == 1:
     diameter = int(input("Masukkan diameter (cm) : "))
     tinggi = int(input("Masukkan tinggi (cm) : "))
